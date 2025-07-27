@@ -19,7 +19,11 @@
         section{
             margin: auto;
             text-align: center;
-            margin-top: 250px;
+            margin-top: 230px;
+        }
+        h1{
+            margin: 20px;
+            color: #fff;
         }
         button{
             border-radius: 15px;
@@ -28,6 +32,12 @@
             margin: 15px;
             box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.5);
             border: 0px solid black;
+            transition: all 0.3s linear;
+        }
+
+        button:hover{
+            scale: 1.03;
+            transform: translateY(-5px);
         }
         #myButton{
             background-color:#051937;
@@ -52,11 +62,13 @@
             padding: 10px;
             border-radius: 10px;
             border-left: 3px solid #fff;
+            border-bottom: 3px solid #fff;
         }
     </style>
 </head>
 <body>
     <section>
+        <h1>Get Your Favourite Linear Gradient </h1>
         <div>
             <button id="myButton">#051937</button>
             <button id="myButton2">#008793</button>
